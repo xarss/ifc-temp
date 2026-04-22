@@ -1,0 +1,17 @@
+# Ativa o módulo de reescrita de URL
+RewriteEngine On
+
+# Permitir acesso direto às pastas especiais
+RewriteCond %{REQUEST_URI} ^/(upload|php|pontos_do_bem)/ [NC]
+RewriteRule ^ - [L]
+
+# Não aplicar regras para arquivos e diretórios existentes
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Processa URLs sem extensão
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]

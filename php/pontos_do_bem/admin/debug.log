@@ -1,0 +1,538 @@
+[08-Apr-2025 21:13:59 Europe/Berlin] 
+------- Nova tentativa de login -------
+[08-Apr-2025 21:13:59 Europe/Berlin] 2025-04-08 21:13:59
+[08-Apr-2025 21:13:59 Europe/Berlin] Iniciando processamento de login
+[08-Apr-2025 21:13:59 Europe/Berlin] POST data: Array
+(
+)
+
+[08-Apr-2025 21:13:59 Europe/Berlin] SESSION data: Array
+(
+)
+
+[08-Apr-2025 21:15:51 Europe/Berlin] 
+------- Nova tentativa de login -------
+[08-Apr-2025 21:15:51 Europe/Berlin] 2025-04-08 21:15:51
+[08-Apr-2025 21:15:51 Europe/Berlin] Iniciando processamento de login
+[08-Apr-2025 21:15:51 Europe/Berlin] POST data: Array
+(
+)
+
+[08-Apr-2025 21:15:51 Europe/Berlin] SESSION data: Array
+(
+)
+
+[08-Apr-2025 21:15:51 Europe/Berlin] Método da requisição: GET
+[08-Apr-2025 21:15:51 Europe/Berlin] Headers da requisição: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [sec-ch-ua] => "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [Referer] => http://localhost/site_ifc/pontos_do_bem/admin/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=khickuibvo0qpijfe80p8id1bj
+)
+
+[08-Apr-2025 21:22:40 Europe/Berlin] 
+------- Nova tentativa de login -------
+[08-Apr-2025 21:22:40 Europe/Berlin] 2025-04-08 21:22:40
+[08-Apr-2025 21:22:40 Europe/Berlin] Iniciando processamento de login
+[08-Apr-2025 21:22:40 Europe/Berlin] POST data: Array
+(
+)
+
+[08-Apr-2025 21:22:40 Europe/Berlin] SESSION data: Array
+(
+)
+
+[08-Apr-2025 21:22:40 Europe/Berlin] Método da requisição: GET
+[08-Apr-2025 21:22:40 Europe/Berlin] Headers da requisição: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [sec-ch-ua] => "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [Referer] => http://localhost/site_ifc/pontos_do_bem/admin/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=khickuibvo0qpijfe80p8id1bj
+)
+
+[08-Apr-2025 21:23:02 Europe/Berlin] 
+------- Nova tentativa de login -------
+[08-Apr-2025 21:23:02 Europe/Berlin] 2025-04-08 21:23:02
+[08-Apr-2025 21:23:02 Europe/Berlin] Iniciando processamento de login
+[08-Apr-2025 21:23:02 Europe/Berlin] POST data: Array
+(
+)
+
+[08-Apr-2025 21:23:02 Europe/Berlin] SESSION data: Array
+(
+)
+
+[08-Apr-2025 21:23:02 Europe/Berlin] Método da requisição: GET
+[08-Apr-2025 21:23:02 Europe/Berlin] Headers da requisição: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [sec-ch-ua] => "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [Referer] => http://localhost/site_ifc/pontos_do_bem/admin/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=khickuibvo0qpijfe80p8id1bj
+)
+
+[08-Apr-2025 21:23:50 Europe/Berlin] 
+------- Nova tentativa de login -------
+[08-Apr-2025 21:23:50 Europe/Berlin] 2025-04-08 21:23:50
+[08-Apr-2025 21:23:50 Europe/Berlin] Iniciando processamento de login
+[08-Apr-2025 21:23:50 Europe/Berlin] POST data: Array
+(
+    [username] => admin_ifc
+    [password] => REDACTED
+)
+
+[08-Apr-2025 21:23:50 Europe/Berlin] SESSION data: Array
+(
+)
+
+[08-Apr-2025 21:23:50 Europe/Berlin] Método da requisição: POST
+[08-Apr-2025 21:23:50 Europe/Berlin] Headers da requisição: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Content-Length] => 45
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [Origin] => http://localhost
+    [Content-Type] => application/x-www-form-urlencoded
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost/site_ifc/pontos_do_bem/admin/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=khickuibvo0qpijfe80p8id1bj
+)
+
+[08-Apr-2025 21:23:50 Europe/Berlin] Tentando conectar ao banco de dados: REDACTED
+[08-Apr-2025 21:23:50 Europe/Berlin] Conexão com o banco de dados estabelecida com sucesso
+[08-Apr-2025 21:25:02 Europe/Berlin] 
+------- Nova tentativa de login -------
+[08-Apr-2025 21:25:02 Europe/Berlin] 2025-04-08 21:25:02
+[08-Apr-2025 21:25:02 Europe/Berlin] Iniciando processamento de login
+[08-Apr-2025 21:25:02 Europe/Berlin] POST data: Array
+(
+    [username] => admin_ifc
+    [password] => REDACTED
+)
+
+[08-Apr-2025 21:25:02 Europe/Berlin] SESSION data: Array
+(
+    [admin_id] => 1
+    [admin_username] => admin_ifc
+)
+
+[08-Apr-2025 21:25:02 Europe/Berlin] Método da requisição: POST
+[08-Apr-2025 21:25:02 Europe/Berlin] Headers da requisição: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Content-Length] => 45
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [Origin] => http://localhost
+    [Content-Type] => application/x-www-form-urlencoded
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost/site_ifc/pontos_do_bem/admin/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=khickuibvo0qpijfe80p8id1bj
+)
+
+[08-Apr-2025 21:25:02 Europe/Berlin] Tentando conectar ao banco de dados: REDACTED
+[08-Apr-2025 21:25:02 Europe/Berlin] Conexão com o banco de dados estabelecida com sucesso
+[08-Apr-2025 21:26:25 Europe/Berlin] 
+------- Nova tentativa de login -------
+[08-Apr-2025 21:26:25 Europe/Berlin] 2025-04-08 21:26:25
+[08-Apr-2025 21:26:25 Europe/Berlin] Iniciando processamento de login
+[08-Apr-2025 21:26:25 Europe/Berlin] POST data: Array
+(
+    [username] => admin_ifc
+    [password] => REDACTED
+)
+
+[08-Apr-2025 21:26:25 Europe/Berlin] SESSION data: Array
+(
+)
+
+[08-Apr-2025 21:26:25 Europe/Berlin] Método da requisição: POST
+[08-Apr-2025 21:26:25 Europe/Berlin] Headers da requisição: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Content-Length] => 45
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [Origin] => http://localhost
+    [Content-Type] => application/x-www-form-urlencoded
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost/site_ifc/pontos_do_bem/admin/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=khickuibvo0qpijfe80p8id1bj
+)
+
+[08-Apr-2025 21:26:25 Europe/Berlin] Tentando conectar ao banco de dados: REDACTED
+[08-Apr-2025 21:26:26 Europe/Berlin] Conexão com o banco de dados estabelecida com sucesso
+[08-Apr-2025 21:30:56 Europe/Berlin] 
+------- Nova tentativa de login -------
+[08-Apr-2025 21:30:56 Europe/Berlin] 2025-04-08 21:30:56
+[08-Apr-2025 21:30:56 Europe/Berlin] Iniciando processamento de login
+[08-Apr-2025 21:30:56 Europe/Berlin] POST data: Array
+(
+    [username] => admin_ifc
+    [password] => The requested URL was not found on this server.
+)
+
+[08-Apr-2025 21:30:56 Europe/Berlin] SESSION data: Array
+(
+)
+
+[08-Apr-2025 21:30:56 Europe/Berlin] Método da requisição: POST
+[08-Apr-2025 21:30:56 Europe/Berlin] Headers da requisição: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Content-Length] => 75
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [Origin] => http://localhost
+    [Content-Type] => application/x-www-form-urlencoded
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost/site_ifc/pontos_do_bem/admin/login
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=khickuibvo0qpijfe80p8id1bj
+)
+
+[08-Apr-2025 21:30:56 Europe/Berlin] Tentando conectar ao banco de dados: REDACTED
+[08-Apr-2025 21:30:57 Europe/Berlin] Conexão com o banco de dados estabelecida com sucesso
+[08-Apr-2025 21:30:57 Europe/Berlin] Tentativa de login falhou: senha incorreta para usuário 'admin_ifc'
+[08-Apr-2025 21:30:57 Europe/Berlin] Erro no login administrativo: Usuário ou senha inválidos
+[08-Apr-2025 21:31:20 Europe/Berlin] 
+------- Nova tentativa de login -------
+[08-Apr-2025 21:31:20 Europe/Berlin] 2025-04-08 21:31:20
+[08-Apr-2025 21:31:20 Europe/Berlin] Iniciando processamento de login
+[08-Apr-2025 21:31:20 Europe/Berlin] POST data: Array
+(
+    [username] => admin_ifc
+    [password] => REDACTED
+)
+
+[08-Apr-2025 21:31:20 Europe/Berlin] SESSION data: Array
+(
+)
+
+[08-Apr-2025 21:31:20 Europe/Berlin] Método da requisição: POST
+[08-Apr-2025 21:31:20 Europe/Berlin] Headers da requisição: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Content-Length] => 45
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [Origin] => http://localhost
+    [Content-Type] => application/x-www-form-urlencoded
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost/site_ifc/pontos_do_bem/admin/login.php
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=khickuibvo0qpijfe80p8id1bj
+)
+
+[08-Apr-2025 21:31:20 Europe/Berlin] Tentando conectar ao banco de dados: REDACTED
+[08-Apr-2025 21:31:21 Europe/Berlin] Conexão com o banco de dados estabelecida com sucesso
+[09-Apr-2025 18:50:32 Europe/Berlin] 
+------- Nova tentativa de login -------
+[09-Apr-2025 18:50:32 Europe/Berlin] 2025-04-09 18:50:32
+[09-Apr-2025 18:50:32 Europe/Berlin] Iniciando processamento de login
+[09-Apr-2025 18:50:32 Europe/Berlin] POST data: Array
+(
+    [username] => admin_ifc
+    [password] => REDACTED
+)
+
+[09-Apr-2025 18:50:32 Europe/Berlin] SESSION data: Array
+(
+)
+
+[09-Apr-2025 18:50:32 Europe/Berlin] Método da requisição: POST
+[09-Apr-2025 18:50:32 Europe/Berlin] Headers da requisição: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Content-Length] => 45
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [Origin] => http://localhost
+    [Content-Type] => application/x-www-form-urlencoded
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost/site_ifc/pontos_do_bem/admin/login.php
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=78m67p0dof8fvs1elst9oedefg
+)
+
+[09-Apr-2025 18:50:32 Europe/Berlin] Tentando conectar ao banco de dados: REDACTED
+[09-Apr-2025 18:50:33 Europe/Berlin] Conexão com o banco de dados estabelecida com sucesso
+[09-Apr-2025 19:41:15 Europe/Berlin] 
+------- Nova tentativa de login -------
+[09-Apr-2025 19:41:15 Europe/Berlin] 2025-04-09 19:41:15
+[09-Apr-2025 19:41:15 Europe/Berlin] Iniciando processamento de login
+[09-Apr-2025 19:41:15 Europe/Berlin] POST data: Array
+(
+    [username] => admin_ifc
+    [password] => REDACTED
+)
+
+[09-Apr-2025 19:41:15 Europe/Berlin] SESSION data: Array
+(
+)
+
+[09-Apr-2025 19:41:15 Europe/Berlin] Método da requisição: POST
+[09-Apr-2025 19:41:15 Europe/Berlin] Headers da requisição: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Content-Length] => 45
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [Origin] => http://localhost
+    [Content-Type] => application/x-www-form-urlencoded
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost/site_ifc/pontos_do_bem/admin/login.php
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=78m67p0dof8fvs1elst9oedefg
+)
+
+[09-Apr-2025 19:41:15 Europe/Berlin] Tentando conectar ao banco de dados: REDACTED
+[09-Apr-2025 19:41:15 Europe/Berlin] Conexão com o banco de dados estabelecida com sucesso
+[12-Jul-2025 21:18:59 Europe/Berlin] 
+------- Nova tentativa de login -------
+[12-Jul-2025 21:18:59 Europe/Berlin] 2025-07-12 21:18:59
+[12-Jul-2025 21:18:59 Europe/Berlin] Iniciando processamento de login
+[12-Jul-2025 21:18:59 Europe/Berlin] POST data: Array
+(
+    [username] => luiz
+    [password] => @REDACTED
+)
+
+[12-Jul-2025 21:18:59 Europe/Berlin] SESSION data: Array
+(
+    [user_id] => 1
+    [user_nome] => Luiz Antonio
+)
+
+[12-Jul-2025 21:18:59 Europe/Berlin] Método da requisição: POST
+[12-Jul-2025 21:18:59 Europe/Berlin] Headers da requisição: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Content-Length] => 35
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [Origin] => http://localhost
+    [Content-Type] => application/x-www-form-urlencoded
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost/site_ifc/php/pontos_do_bem/admin/login.php
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=vrt21ir7k70e5lqckve0ru6p5u
+)
+
+[12-Jul-2025 21:18:59 Europe/Berlin] Tentando conectar ao banco de dados: REDACTED
+[12-Jul-2025 21:18:59 Europe/Berlin] Conexão com o banco de dados estabelecida com sucesso
+[12-Jul-2025 21:18:59 Europe/Berlin] Tentativa de login falhou: usuário 'luiz' não encontrado
+[12-Jul-2025 21:18:59 Europe/Berlin] Erro no login administrativo: Usuário ou senha inválidos
+[12-Jul-2025 21:19:11 Europe/Berlin] 
+------- Nova tentativa de login -------
+[12-Jul-2025 21:19:11 Europe/Berlin] 2025-07-12 21:19:11
+[12-Jul-2025 21:19:11 Europe/Berlin] Iniciando processamento de login
+[12-Jul-2025 21:19:11 Europe/Berlin] POST data: Array
+(
+    [username] => zzluiz@gmail.com
+    [password] => @REDACTED
+)
+
+[12-Jul-2025 21:19:11 Europe/Berlin] SESSION data: Array
+(
+    [user_id] => 1
+    [user_nome] => Luiz Antonio
+)
+
+[12-Jul-2025 21:19:11 Europe/Berlin] Método da requisição: POST
+[12-Jul-2025 21:19:11 Europe/Berlin] Headers da requisição: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Content-Length] => 49
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [Origin] => http://localhost
+    [Content-Type] => application/x-www-form-urlencoded
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost/site_ifc/php/pontos_do_bem/admin/login.php
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=vrt21ir7k70e5lqckve0ru6p5u
+)
+
+[12-Jul-2025 21:19:11 Europe/Berlin] Tentando conectar ao banco de dados: REDACTED
+[12-Jul-2025 21:19:12 Europe/Berlin] Conexão com o banco de dados estabelecida com sucesso
+[12-Jul-2025 21:19:12 Europe/Berlin] Tentativa de login falhou: usuário 'zzluiz@gmail.com' não encontrado
+[12-Jul-2025 21:19:12 Europe/Berlin] Erro no login administrativo: Usuário ou senha inválidos
+[12-Jul-2025 21:20:38 Europe/Berlin] 
+------- Nova tentativa de login -------
+[12-Jul-2025 21:20:38 Europe/Berlin] 2025-07-12 21:20:38
+[12-Jul-2025 21:20:38 Europe/Berlin] Iniciando processamento de login
+[12-Jul-2025 21:20:38 Europe/Berlin] POST data: Array
+(
+    [username] => admin_ifc
+    [password] => REDACTED
+)
+
+[12-Jul-2025 21:20:38 Europe/Berlin] SESSION data: Array
+(
+    [user_id] => 1
+    [user_nome] => Luiz Antonio
+)
+
+[12-Jul-2025 21:20:38 Europe/Berlin] Método da requisição: POST
+[12-Jul-2025 21:20:38 Europe/Berlin] Headers da requisição: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Content-Length] => 45
+    [Cache-Control] => max-age=0
+    [sec-ch-ua] => "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+    [sec-ch-ua-mobile] => ?0
+    [sec-ch-ua-platform] => "Windows"
+    [Origin] => http://localhost
+    [Content-Type] => application/x-www-form-urlencoded
+    [Upgrade-Insecure-Requests] => 1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Sec-Fetch-Site] => same-origin
+    [Sec-Fetch-Mode] => navigate
+    [Sec-Fetch-User] => ?1
+    [Sec-Fetch-Dest] => document
+    [Referer] => http://localhost/site_ifc/php/pontos_do_bem/admin/login.php
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+    [Cookie] => PHPSESSID=vrt21ir7k70e5lqckve0ru6p5u
+)
+
+[12-Jul-2025 21:20:38 Europe/Berlin] Tentando conectar ao banco de dados: REDACTED
+[12-Jul-2025 21:20:38 Europe/Berlin] Conexão com o banco de dados estabelecida com sucesso
