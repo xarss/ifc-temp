@@ -856,6 +856,7 @@ strong {
   width: 100%;
   height: auto;
   transition: all 0.3s;
+  margin-bottom: 24px;
 }
 
 .projects-thumb-large .projects-image {
