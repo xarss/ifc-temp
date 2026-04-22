@@ -88,25 +88,147 @@
         <hr>
     </div>
     <div class="container">
-        <div class="row">            
-            <?php
-                $dir = "images/adocao/gatos"; // Caminho da pasta onde as fotos estão armazenadas
-                $files = scandir($dir); // Lê todos os arquivos da pasta
-
-                    foreach ($files as $file) {
-                    // Exibe apenas arquivos de imagem
-                        if (in_array(pathinfo($file, PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif'])) {
-                        // Remove a extensão do arquivo e coloca a primeira letra em maiúscula
-                        $fileNameWithoutExt = ucfirst(pathinfo($file, PATHINFO_FILENAME));
-
-                            echo "
-                                <div class='col-lg-3 col-12 text-center'> 
-                                    <img class='img-fluid projects-image' src='$dir/$file' alt='$file'><br>                                    
-                                    <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20adoção%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
-                                </div>";
-                        }
-                    }
-            ?>          
+        <div class="row">
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/1.jpg' alt='1'><br>
+                <div class='filename'><h5>1</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/2.jpg' alt='2'><br>
+                <div class='filename'><h5>2</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/3.jpg' alt='3'><br>
+                <div class='filename'><h5>3</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/4.jpg' alt='4'><br>
+                <div class='filename'><h5>4</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/5.jpg' alt='5'><br>
+                <div class='filename'><h5>5</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/6.jpg' alt='6'><br>
+                <div class='filename'><h5>6</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/7.jpg' alt='7'><br>
+                <div class='filename'><h5>7</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/8.jpg' alt='8'><br>
+                <div class='filename'><h5>8</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/9.jpg' alt='9'><br>
+                <div class='filename'><h5>9</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/anastassia.jpg' alt='Anastassia'><br>
+                <div class='filename'><h5>Anastassia</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/ariel.jpg' alt='Ariel'><br>
+                <div class='filename'><h5>Ariel</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/baruk.jpg' alt='Baruk'><br>
+                <div class='filename'><h5>Baruk</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/carmella.jpg' alt='Carmella'><br>
+                <div class='filename'><h5>Carmella</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/donzela.jpg' alt='Donzela'><br>
+                <div class='filename'><h5>Donzela</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/felícia.jpg' alt='Felícia'><br>
+                <div class='filename'><h5>Felícia</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/gaia.jpg' alt='Gaia'><br>
+                <div class='filename'><h5>Gaia</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/grizela.jpg' alt='Grizela'><br>
+                <div class='filename'><h5>Grizela</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/joy.jpg' alt='Joy'><br>
+                <div class='filename'><h5>Joy</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/juju.jpg' alt='Juju'><br>
+                <div class='filename'><h5>Juju</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/kate.jpg' alt='Kate'><br>
+                <div class='filename'><h5>Kate</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/lady.jpg' alt='Lady'><br>
+                <div class='filename'><h5>Lady</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/lenon.jpg' alt='Lenon'><br>
+                <div class='filename'><h5>Lenon</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/lucy.jpg' alt='Lucy'><br>
+                <div class='filename'><h5>Lucy</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/lúcifer.jpg' alt='Lúcifer'><br>
+                <div class='filename'><h5>Lúcifer</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/mirela.jpg' alt='Mirela'><br>
+                <div class='filename'><h5>Mirela</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/pimenta.jpg' alt='Pimenta'><br>
+                <div class='filename'><h5>Pimenta</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/pérola.jpg' alt='Pérola'><br>
+                <div class='filename'><h5>Pérola</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/gatos/ursula.jpg' alt='Ursula'><br>
+                <div class='filename'><h5>Ursula</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20uma%20visita%20para%20ado%C3%A7%C3%A3o%20de%20gato.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero conhecer!</a>
+            </div>
         </div>
     </div>
 </section>

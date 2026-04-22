@@ -86,26 +86,687 @@
         <hr>
     </div>
     <div class="container">
-        <div class="row">            
-            <?php
-                $dir = "images/adocao/cachorros"; // Caminho da pasta onde as fotos estão armazenadas
-                $files = scandir($dir); // Lê todos os arquivos da pasta
-
-                    foreach ($files as $file) {
-                    // Exibe apenas arquivos de imagem
-                        if (in_array(pathinfo($file, PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif'])) {
-                        // Remove a extensão do arquivo e coloca a primeira letra em maiúscula
-                        $fileNameWithoutExt = ucfirst(pathinfo($file, PATHINFO_FILENAME));
-
-                            echo "
-                                <div class='col-lg-3 col-12 text-center'> 
-                                    <img class='img-fluid projects-image' src='$dir/$file' alt='$file'><br>
-                                    <div class='filename'><h5>" . htmlspecialchars($fileNameWithoutExt) . "</h5></div>
-                                    <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
-                                </div>";
-                        }
-                    }
-            ?>          
+        <div class="row">
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/Aladin.jpg' alt='Aladin'><br>
+                <div class='filename'><h5>Aladin</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/alecrim.jpg' alt='Alecrim'><br>
+                <div class='filename'><h5>Alecrim</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/amelie.jpg' alt='Amelie'><br>
+                <div class='filename'><h5>Amelie</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/aryah.jpg' alt='Aryah'><br>
+                <div class='filename'><h5>Aryah</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/baguera.jpg' alt='Baguera'><br>
+                <div class='filename'><h5>Baguera</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/bebel.jpg' alt='Bebel'><br>
+                <div class='filename'><h5>Bebel</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/bela.jpg' alt='Bela'><br>
+                <div class='filename'><h5>Bela</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/bento 2.jpg' alt='Bento 2'><br>
+                <div class='filename'><h5>Bento 2</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/bento.jpg' alt='Bento'><br>
+                <div class='filename'><h5>Bento</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/bibi.jpg' alt='Bibi'><br>
+                <div class='filename'><h5>Bibi</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/billie joe.jpg' alt='Billie joe'><br>
+                <div class='filename'><h5>Billie joe</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/biscoito.jpg' alt='Biscoito'><br>
+                <div class='filename'><h5>Biscoito</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/blanch.jpg' alt='Blanch'><br>
+                <div class='filename'><h5>Blanch</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/brisa.jpg' alt='Brisa'><br>
+                <div class='filename'><h5>Brisa</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/bruno.jpg' alt='Bruno'><br>
+                <div class='filename'><h5>Bruno</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/cadu.jpg' alt='Cadu'><br>
+                <div class='filename'><h5>Cadu</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/calvin.jpg' alt='Calvin'><br>
+                <div class='filename'><h5>Calvin</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/capitu.jpg' alt='Capitu'><br>
+                <div class='filename'><h5>Capitu</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/caramela.jpg' alt='Caramela'><br>
+                <div class='filename'><h5>Caramela</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/carlito.jpg' alt='Carlito'><br>
+                <div class='filename'><h5>Carlito</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/carlos.jpg' alt='Carlos'><br>
+                <div class='filename'><h5>Carlos</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/carvito.jpg' alt='Carvito'><br>
+                <div class='filename'><h5>Carvito</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/carvão.jpg' alt='Carvão'><br>
+                <div class='filename'><h5>Carvão</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/cauã.jpg' alt='Cauã'><br>
+                <div class='filename'><h5>Cauã</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/charles.jpg' alt='Charles'><br>
+                <div class='filename'><h5>Charles</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/chico 2.jpg' alt='Chico 2'><br>
+                <div class='filename'><h5>Chico 2</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/chico.jpg' alt='Chico'><br>
+                <div class='filename'><h5>Chico</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/chocolate.jpg' alt='Chocolate'><br>
+                <div class='filename'><h5>Chocolate</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/chucky.jpg' alt='Chucky'><br>
+                <div class='filename'><h5>Chucky</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/cisso.jpg' alt='Cisso'><br>
+                <div class='filename'><h5>Cisso</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/clark.jpg' alt='Clark'><br>
+                <div class='filename'><h5>Clark</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/coentro.jpg' alt='Coentro'><br>
+                <div class='filename'><h5>Coentro</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/cominho.jpg' alt='Cominho'><br>
+                <div class='filename'><h5>Cominho</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/costelinha.jpg' alt='Costelinha'><br>
+                <div class='filename'><h5>Costelinha</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/cuca.jpg' alt='Cuca'><br>
+                <div class='filename'><h5>Cuca</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/dori.jpg' alt='Dori'><br>
+                <div class='filename'><h5>Dori</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/duda.jpg' alt='Duda'><br>
+                <div class='filename'><h5>Duda</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/dumbo.jpg' alt='Dumbo'><br>
+                <div class='filename'><h5>Dumbo</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/eduardo.jpg' alt='Eduardo'><br>
+                <div class='filename'><h5>Eduardo</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/enzo.jpg' alt='Enzo'><br>
+                <div class='filename'><h5>Enzo</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/eros.jpg' alt='Eros'><br>
+                <div class='filename'><h5>Eros</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/faísca.jpg' alt='Faísca'><br>
+                <div class='filename'><h5>Faísca</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/feijão.jpg' alt='Feijão'><br>
+                <div class='filename'><h5>Feijão</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/feliz.jpg' alt='Feliz'><br>
+                <div class='filename'><h5>Feliz</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/flocos.jpg' alt='Flocos'><br>
+                <div class='filename'><h5>Flocos</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/fred.jpg' alt='Fred'><br>
+                <div class='filename'><h5>Fred</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/gabriel.jpg' alt='Gabriel'><br>
+                <div class='filename'><h5>Gabriel</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/galderio.jpg' alt='Galderio'><br>
+                <div class='filename'><h5>Galderio</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/gigi.jpg' alt='Gigi'><br>
+                <div class='filename'><h5>Gigi</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/gilberto.jpg' alt='Gilberto'><br>
+                <div class='filename'><h5>Gilberto</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/gustavo.jpg' alt='Gustavo'><br>
+                <div class='filename'><h5>Gustavo</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/hope.jpg' alt='Hope'><br>
+                <div class='filename'><h5>Hope</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/jade.jpg' alt='Jade'><br>
+                <div class='filename'><h5>Jade</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/joaquim.jpg' alt='Joaquim'><br>
+                <div class='filename'><h5>Joaquim</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/joka.jpg' alt='Joka'><br>
+                <div class='filename'><h5>Joka</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/joy.jpg' alt='Joy'><br>
+                <div class='filename'><h5>Joy</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/judite.jpg' alt='Judite'><br>
+                <div class='filename'><h5>Judite</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/jumbo.jpg' alt='Jumbo'><br>
+                <div class='filename'><h5>Jumbo</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/jupiter.jpg' alt='Jupiter'><br>
+                <div class='filename'><h5>Jupiter</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/karmela.jpg' alt='Karmela'><br>
+                <div class='filename'><h5>Karmela</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/kiko.jpg' alt='Kiko'><br>
+                <div class='filename'><h5>Kiko</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/kim.jpg' alt='Kim'><br>
+                <div class='filename'><h5>Kim</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/lenon.jpg' alt='Lenon'><br>
+                <div class='filename'><h5>Lenon</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/leon.jpg' alt='Leon'><br>
+                <div class='filename'><h5>Leon</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/lia.jpg' alt='Lia'><br>
+                <div class='filename'><h5>Lia</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/lobinho.jpg' alt='Lobinho'><br>
+                <div class='filename'><h5>Lobinho</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/logan.jpg' alt='Logan'><br>
+                <div class='filename'><h5>Logan</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/louis.jpg' alt='Louis'><br>
+                <div class='filename'><h5>Louis</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/luna.jpg' alt='Luna'><br>
+                <div class='filename'><h5>Luna</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/madona.jpg' alt='Madona'><br>
+                <div class='filename'><h5>Madona</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/magali.jpg' alt='Magali'><br>
+                <div class='filename'><h5>Magali</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/maju.jpg' alt='Maju'><br>
+                <div class='filename'><h5>Maju</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/marcelinho.jpg' alt='Marcelinho'><br>
+                <div class='filename'><h5>Marcelinho</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/marco.jpg' alt='Marco'><br>
+                <div class='filename'><h5>Marco</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/maria bonita.jpg' alt='Maria bonita'><br>
+                <div class='filename'><h5>Maria bonita</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/maria tereza.jpg' alt='Maria tereza'><br>
+                <div class='filename'><h5>Maria tereza</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/max.jpg' alt='Max'><br>
+                <div class='filename'><h5>Max</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/merida.jpg' alt='Merida'><br>
+                <div class='filename'><h5>Merida</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/mia.jpg' alt='Mia'><br>
+                <div class='filename'><h5>Mia</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/miguel.jpg' alt='Miguel'><br>
+                <div class='filename'><h5>Miguel</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/milka.jpg' alt='Milka'><br>
+                <div class='filename'><h5>Milka</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/minhoca.jpg' alt='Minhoca'><br>
+                <div class='filename'><h5>Minhoca</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/moacir.jpg' alt='Moacir'><br>
+                <div class='filename'><h5>Moacir</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/molly.jpg' alt='Molly'><br>
+                <div class='filename'><h5>Molly</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/nala.jpg' alt='Nala'><br>
+                <div class='filename'><h5>Nala</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/naomi.jpg' alt='Naomi'><br>
+                <div class='filename'><h5>Naomi</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/negresco.jpg' alt='Negresco'><br>
+                <div class='filename'><h5>Negresco</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/nelsinho.jpg' alt='Nelsinho'><br>
+                <div class='filename'><h5>Nelsinho</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/niall.jpg' alt='Niall'><br>
+                <div class='filename'><h5>Niall</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/nicolau.jpg' alt='Nicolau'><br>
+                <div class='filename'><h5>Nicolau</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/nina.jpg' alt='Nina'><br>
+                <div class='filename'><h5>Nina</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/nino.jpg' alt='Nino'><br>
+                <div class='filename'><h5>Nino</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/noah.jpg' alt='Noah'><br>
+                <div class='filename'><h5>Noah</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/nutella.jpg' alt='Nutella'><br>
+                <div class='filename'><h5>Nutella</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/oddie.jpg' alt='Oddie'><br>
+                <div class='filename'><h5>Oddie</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/olaf.jpg' alt='Olaf'><br>
+                <div class='filename'><h5>Olaf</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/olavo.jpg' alt='Olavo'><br>
+                <div class='filename'><h5>Olavo</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/orlandinho.jpg' alt='Orlandinho'><br>
+                <div class='filename'><h5>Orlandinho</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/patrick.jpg' alt='Patrick'><br>
+                <div class='filename'><h5>Patrick</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/paul.jpg' alt='Paul'><br>
+                <div class='filename'><h5>Paul</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/pepe.jpg' alt='Pepe'><br>
+                <div class='filename'><h5>Pepe</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/pimenta.jpg' alt='Pimenta'><br>
+                <div class='filename'><h5>Pimenta</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/pintado.jpg' alt='Pintado'><br>
+                <div class='filename'><h5>Pintado</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/pitanga.jpg' alt='Pitanga'><br>
+                <div class='filename'><h5>Pitanga</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/pluto.jpg' alt='Pluto'><br>
+                <div class='filename'><h5>Pluto</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/polenta.jpg' alt='Polenta'><br>
+                <div class='filename'><h5>Polenta</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/pumba.jpg' alt='Pumba'><br>
+                <div class='filename'><h5>Pumba</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/pérola.jpg' alt='Pérola'><br>
+                <div class='filename'><h5>Pérola</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/rico.jpg' alt='Rico'><br>
+                <div class='filename'><h5>Rico</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/rihanna.jpg' alt='Rihanna'><br>
+                <div class='filename'><h5>Rihanna</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/ringo.jpg' alt='Ringo'><br>
+                <div class='filename'><h5>Ringo</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/rollie.jpg' alt='Rollie'><br>
+                <div class='filename'><h5>Rollie</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/rondelli.jpg' alt='Rondelli'><br>
+                <div class='filename'><h5>Rondelli</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/ruanda.jpg' alt='Ruanda'><br>
+                <div class='filename'><h5>Ruanda</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/ruby.jpg' alt='Ruby'><br>
+                <div class='filename'><h5>Ruby</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/serrano.jpg' alt='Serrano'><br>
+                <div class='filename'><h5>Serrano</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/shoyo.jpg' alt='Shoyo'><br>
+                <div class='filename'><h5>Shoyo</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/sininho.jpg' alt='Sininho'><br>
+                <div class='filename'><h5>Sininho</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/tatau.jpg' alt='Tatau'><br>
+                <div class='filename'><h5>Tatau</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/teka.jpg' alt='Teka'><br>
+                <div class='filename'><h5>Teka</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/tiana.jpg' alt='Tiana'><br>
+                <div class='filename'><h5>Tiana</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/tiger.jpg' alt='Tiger'><br>
+                <div class='filename'><h5>Tiger</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/tina.jpg' alt='Tina'><br>
+                <div class='filename'><h5>Tina</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/tininha.jpg' alt='Tininha'><br>
+                <div class='filename'><h5>Tininha</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/tinker.jpg' alt='Tinker'><br>
+                <div class='filename'><h5>Tinker</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/tod.jpg' alt='Tod'><br>
+                <div class='filename'><h5>Tod</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/tufão.jpg' alt='Tufão'><br>
+                <div class='filename'><h5>Tufão</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/vitor.jpg' alt='Vitor'><br>
+                <div class='filename'><h5>Vitor</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/vitória.jpg' alt='Vitória'><br>
+                <div class='filename'><h5>Vitória</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/vitório.jpg' alt='Vitório'><br>
+                <div class='filename'><h5>Vitório</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/voninha.jpg' alt='Voninha'><br>
+                <div class='filename'><h5>Voninha</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/waldemar.jpg' alt='Waldemar'><br>
+                <div class='filename'><h5>Waldemar</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/xaxixa.jpg' alt='Xaxixa'><br>
+                <div class='filename'><h5>Xaxixa</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/yoko.jpg' alt='Yoko'><br>
+                <div class='filename'><h5>Yoko</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/zeca.jpg' alt='Zeca'><br>
+                <div class='filename'><h5>Zeca</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
+            <div class='col-lg-3 col-12 text-center'>
+                <img class='img-fluid projects-image' src='images/adocao/cachorros/zulu.jpg' alt='Zulu'><br>
+                <div class='filename'><h5>Zulu</h5></div>
+                <a href='https://wa.me/5541997466529?text=Ol%C3%A1%2C%20gostaria%20de%20adotar%20um%20cachorro.' class='btn btn-primary custom-btn mt-2' target='_blank' style='margin-bottom: 10px;'>Quero adotar</a>
+            </div>
         </div>
     </div>
 </section>
