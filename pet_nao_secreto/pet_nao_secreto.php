@@ -28,7 +28,7 @@ $animais = $stmt->fetchAll(PDO::FETCH_ASSOC);
     Cada história carrega marcas, mas também esperança. E é por isso que antes de escolher qual cão presentear (ou quem sabe adotar), convidamos você a ler todas as histórias, se emocionar e se conectar com seu escolhido.
     No final de cada história, deixamos a lista de presentes e seus valores... para que, com um simples Pix, você possa fazer a diferença mesmo na correria do dia a dia.
     Porque o Natal é sobre amor e este é o melhor presente que eles podem ganhar. ❤️">
-    <meta property="og:url" content="https://insitutoficacomigo.org.br">
+    <meta property="og:url" content="https://institutoficacomigo.org.br">
     <meta property="og:site_name" content="Instituto Fica Comigo">
     <meta property="og:type" content="website">
     <meta property="og:image" content="image1.jpg">
