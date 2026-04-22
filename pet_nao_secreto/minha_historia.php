@@ -139,7 +139,7 @@ if (!$animal) {
                             <a href="tel: (41) 3093-7879"><i class="bi-telephone contact-icon me-2"></i>(41) 3093-7879</a>
                         </h4>
                         <h5>
-                                <a href="mailto:contato@institutoficacomigo.org.br" class="footer-link"><i class="bi-envelope-fill contact-icon me-2"></i>contato@institutoficacomigo.org.br</a>
+                                <a href="mailto:resgatesifc@gmail.com" class="footer-link"><i class="bi-envelope-fill contact-icon me-2"></i>resgatesifc@gmail.com</a>
                             </h5>
 
  <!-- Copy "embed a map" HTML code from any point on Google Maps -> Share Link  -->

@@ -11,10 +11,10 @@ require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
-$smtpUsername = "contato@institutoficacomigo.org.br";
+$smtpUsername = "resgatesifc@gmail.com";
 $smtpPassword = "REDACTED";
-$emailFrom = "contato@institutoficacomigo.org.br";
-$emailTo = 'contato@institutoficacomigo.org.br';     
+$emailFrom = "resgatesifc@gmail.com";
+$emailTo = 'resgatesifc@gmail.com';     
 
 $mail = new PHPMailer;
 $mail->isSMTP(); 
